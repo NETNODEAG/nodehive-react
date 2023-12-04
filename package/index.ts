@@ -1,4 +1,10 @@
-export { AuthWrapper } from './src/components/AuthWrapper';
-export { DevHelper } from './src/components/DevHelper';
-export { LoginForm } from './src/components/LoginForm';
-export { SmartActionsWidget } from './src/components/SmartActionsWidget';
+export { AuthWrapper } from './src/components/auth/AuthWrapper';
+export { DevHelper } from './src/components/helper/DevHelper';
+export { LoginForm } from './src/components/auth/LoginForm';
+export { SmartActionsWidget } from './src/components/SmartActionButtons';
+
+
+export { NodeMeta } from './src/components/node/NodeMeta';
+
+export { VisualEditorNodeWrapper } from './src/components/visualeditor/VisualEditorNodeWrapper';
+export { VisualEditorParagraphWrapper } from './src/components/visualeditor/VisualEditorParagraphWrapper';
