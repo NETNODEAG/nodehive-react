@@ -4,7 +4,8 @@
 import React, { useEffect, useState } from 'react';
 import { NodeHiveClient } from 'nodehive-js';
 
-const AuthWrapper = ({ children }) => {
+
+export function AuthWrapper({ children }) {
   const [userLoggedIn, setUserLoggedIn] = useState(false);
 
   const client = new NodeHiveClient(
@@ -19,7 +20,6 @@ const AuthWrapper = ({ children }) => {
     return null;
   }
 
-  return <>{children}</>;
-};
+  return (<>{children}</>);
+}
 
-export default AuthWrapper;

@@ -1,7 +1,7 @@
 {
   "name": "nodehive-react",
   "description": "NodeHive NextJS/React Components",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "scripts": {
     "test": "jest"

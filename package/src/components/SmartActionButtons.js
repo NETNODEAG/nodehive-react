@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { NodeHiveClient } from 'nodehive-js';
 
-export default function VisualEditor() {
+export function SmartActionButtons() {
   const router = useRouter();
   const [isInIframe, setIsInIframe] = useState(false);
   const [userProfilePic, setUserProfilePic] = useState('');
