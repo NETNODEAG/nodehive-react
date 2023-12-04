@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import AuthWrapper from '../auth/AuthWrapper';
+import { AuthWrapper } from "../auth/AuthWrapper";
 
 export function NodeMeta({ node }) {
   return (
-    <div>
+    <>
       {!node.status && (
         <div
           className="mb-5 border-l-4 border-yellow-500 bg-yellow-100 p-4 text-yellow-700"
@@ -32,6 +32,6 @@ export function NodeMeta({ node }) {
           </div>
         )}
       </AuthWrapper>
-    </div>
+    </>
   );
 }
